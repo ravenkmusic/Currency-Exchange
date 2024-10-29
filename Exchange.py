@@ -52,7 +52,8 @@ def get_number_of_bills(amount, denomination):
     :return: int - number of bills that can be obtained from the amount.
     """
 
-    pass
+    value = int(amount / denomination)
+    return  value
 
 
 def get_leftover_of_bills(amount, denomination):
