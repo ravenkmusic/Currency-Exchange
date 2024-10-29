@@ -64,7 +64,8 @@ def get_leftover_of_bills(amount, denomination):
     :return: float - the amount that is "leftover", given the current denomination.
     """
 
-    pass
+    value = float(amount % denomination)
+    return value
 
 
 def exchangeable_value(budget, exchange_rate, spread, denomination):
